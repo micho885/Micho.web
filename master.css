@@ -1,3 +1,6 @@
+/* https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors */
+/* selector por id */
+
 .cabecera{
   background-color: lavender;
 }
@@ -15,4 +18,50 @@
 }
 .piePagina{
   background-color: pink;
+}
+
+/* selector por id  */
+#tituloPrincipal{
+  text-align: center;
+}
+/* selector Combinador de descendientes */
+nav li{
+  display: inline-block;
+}
+/* multiples selectores */
+h2,h3,h4,h5{
+  color: purple;
+}
+
+/* selector Combinador de hijo */
+ul>li{
+  list-style: none;
+}
+/* selector usando clases y etiquetas */
+.galeria img{
+  width: 200px;
+  height: auto;
+}
+
+ background-color: blue;
+.navPrincipal li{
+}
+
+/* pseudoclases */
+.navPrincipal li:hover{
+  background-color: green;
+
+  transition-delay: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color;
+}
+/* pseudo elementos */
+.exciting-text::after {
+  content: " <- EXCITING!";
+  color: green;
+}
+
+.boring-text::after {
+  content: " <- BORING";
+  color: red;
 }
