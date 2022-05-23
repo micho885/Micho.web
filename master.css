@@ -10,13 +10,13 @@
   width: 150px;
   border-radius: 100%;
   position: relative;
-  right: 580px;
+  left: 20px;
   top: 25px;
 }
 .cabecera h3{
   display: inline-block;
   position: relative;
-  left: 60px;
+  right: 100px;
   bottom: 30px;
 }
 .navPrincipal{
@@ -93,7 +93,7 @@
   display: inline-block;
   width: auto;
  position: relative;
- left: 300px;
+ left: 90px;
  bottom: 50px;
 
 
@@ -112,9 +112,23 @@ ul>li{
   list-style: none;
 }
 /* selector usando clases y etiquetas */
+.galeria{
+  background-color: lavender;
+  height: 300px;
+}
 .galeria img{
+  background-color: pink;
+  margin: 7px;
   width: 200px;
-  height: auto;
+  height: 200px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px 3px rgba(0,0,0,0,21)
+  border-radius: 10px;
+}
+#pfixed{
+  position: fixed;
+  right:100px;
+  top: 100px;
 }
 
  background-color: blue;
