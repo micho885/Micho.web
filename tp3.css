@@ -15,8 +15,22 @@
   top: 10px;
 }
 
-.espiritu{
+.espiritu img{
+  width: 450px;
+  border-radius: 100%;
+  top: 25px;
+}
+.XD img{
+  width: 500px;
+}
+.XD h1{
   text-align: center;
   position: relative;
-  top: 20px;
+  top: -400px;
+}
+#text{
+  float: right;
+  position: relative;
+  top:-430px;
+  left: -300px;
 }
