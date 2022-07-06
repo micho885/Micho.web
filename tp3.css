@@ -1,36 +1,89 @@
-#minipekka1{
+.titulo h1{
   background-color: green;
   text-align: center;
   position: relative;
   top: 10px;
 }
-.minipekka H2{
+.titulo h2{
   text-align: center;
   position: relative;
 }
-.leñador{
+.buscador{
   background-color:;
   text-align: left;
   position: relative;
   top: 10px;
 }
 
-.espiritu img{
-  width: 450px;
-  border-radius: 100%;
-  top: 25px;
+.logo img{
+  height: 200px;
+  width: 100%;
+
 }
-.XD img{
+.select img{
   width: 500px;
+  position: relative;
+  top: 100px;
+  left:100px;
 }
-.XD h1{
+.select h1{
   text-align: center;
   position: relative;
   top: -400px;
 }
-#text{
+.links h1{
   float: right;
   position: relative;
   top:-430px;
   left: -300px;
+}
+.select h3{
+  position: relative;
+  top:100px;
+  left:700px;
+}
+.select li{
+  position: relative;
+  top: -90px;
+  left:750px;
+
+}
+.select p{
+  float: right;
+  position: relative;
+  top:-430px;
+  left: -300px;
+}
+.img2 img{
+  width: 700px;
+  position: relative;
+  top: -350px;
+  right:-1100px;
+}
+.img2 p{
+  position: relative;
+  top:-200px;
+}
+.parrafo h1{
+  position: relative;
+  top:-200px;
+  left: 700px;
+}
+.parrafo p{
+  position: relative;
+  top:-200px;
+}
+.parrafo img{
+  position: relative;
+  top:-200px;
+}
+.piedepagina{
+  position: relative;
+  top:-200px;
+}
+
+.piedepagina {
+ background-image: url("img\fondo.jpg");
+ height:300px;
+ width: 100%;
 }
