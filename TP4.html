@@ -3,16 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Felinos Salvajes</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Dragonball</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/TP4.css">
+    
+    <!-- fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,900;1,400&display=swap" rel="stylesheet">
+
   </head>
   <body>
+   <!--cabecera-->
     <div class="container">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <!--Logo-->
               <a class="navbar-brand" href="#">
-                <img src="img/felinos.jpg" alt="logopagina" width="auto" height="300px">
+                <img src="img/felinos.jpg" alt="logopagina" width="auto" height="100px">
               </a>              
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -20,63 +28,143 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active fs-2" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active fs-2" aria-current="page" href="#">León</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-2" href="#cosplay"></a>
+                    <a class="nav-link fs-2" href="#Puma">Puma</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-2" href="#historia">Historia</a>
+                    <a class="nav-link fs-2" href="#Tigre">Tigre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-2" href="#personajes">habitats</a>
+                    <a class="nav-link fs-2" href="#Guepardo">Guepardo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fs-2" href="#memes">Memes</a>
+                    <a class="nav-link fs-2" href="Jaguar">Jaguar</a>
                   </li>
                 </ul>                
               </div>
             </div>
         </nav>
         <header class="container-fluid">
-            <div class="row">            
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/felinos.jpg" class="d-block w-100" alt="felinos">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/leon.jpeg" class="d-block w-100" alt="felinos2">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/tigre.jpg" class="d-block w-100" alt="felinos3">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                  
+          <div class="row">            
+            <div id="carouselExampleFade" class="carousel slide carousel-fade col-lg-8" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/león.png" class="d-block w-100 rounded-4 imagenescar" alt="dragon ball1">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/puma.png" class="d-block w-100 rounded-4 imagenescar" alt="dragon ball2">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/tigre.png" class="d-block w-100 rounded-4 imagenescar" alt="dragon ball3">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 text-center">
+              <h3 class="display-1">Bienvenidos a la pagina con información de<span class="tFelinos fw-bold">Felinos</span><span class="tSalvajes fw-bold">Salvajes</span> </h3>            
+            </div>
+          </div>
+        </header>
+    </div>
+
+    <!--Features-->
+    <section class="features container ">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <a class="nav-link" href="#León">
+            <img class=" rounded-6" src="img/león.png" alt="goku chiquito" height="150px" >
+            <p class="text-center fs-2">León</p>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a class="nav-link" href="#Puma">
+            <img class=" rounded-6" src="img/puma.png" alt="goku chiquito" height="150px" >
+            <p class="text-center fs-2">Puma</p>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a class="nav-link" href="#Tigre">
+            <img class=" rounded-4" src="img/tigre.png" alt="goku chiquito" height="150px">
+            <p class="text-center fs-2">Tigre</p>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a class="nav-link" href="Guepardo">
+            <img class=" rounded-4" src="img/guepardo.png" alt="goku con esferas" height="150px">
+            <p class="text-center fs-2">Guepardo</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Secciones-->
+    <div class="container">
+      <div class="row">
+        <!--cosplay seccion-->
+        <section id="cosplay" class="cosplay col-lg-6 text-center"> 
+          <h4 class="mt-2 display-6">Leopardos</h4>
+          <img class="rounded-4 mt-2" src="img/maestroroshi.png" alt="cosplay1" width="90%">
+          <p class="mt-2">Diferentes especies de leopardos habitan en los bosques y selvas del sur de Asia y sur de África. Comúnmente conocidos como panteras pardas, los leopardos comunes (Panthera pardus) presentan a veces un pelaje completamente negro, recibiendo en estos casos el nombre común de pantera negra. Los leopardos tienen hábitos de caza y actividad principalmente nocturnos, caracterizados por su sigilo y rapidez de ataque como principales estrategias de caza. Entre las especies de leopardos más asombrosas destacan:</p>          
+        </section>
+        <!--historia seccion-->
+        <section id="historia" class="historia col-lg-6">
+            <h4 class="mt-2 display-6">Linces</h4>
+            <img class="rounded-4 mt-2" src="img/historia.png" alt="historia" width="50%">
+            <p class="mt-2">Más allá de los grandes felinos vistos hasta ahora en el artículo, destacan los linces como otro de los grupos de felinos más abundantes del planeta. Se trata de felinos tamaño mediano y con una amplia distribución geográfica. Los linces son depredadores con un elevado interés en el correcto funcionamiento de los ecosistemas a los que pertenecen. Se caracterizan por ser animales muy escurridizos y difíciles de ver, con una gran agilidad y hábitos de caza principalmente nocturnos. Entre las especies de linces más emblemáticas destacan:</p>
+        </section>
+      </div>
+      <div class="row">
+        <!--personajes seccion-->
+        <section id="personajes" class="personajes col-lg-6">
+          <h4 class="mt-2 display-6">Habitats</h4>
+          <img class="rounded-4 mt-2" src="img/personajes.png" alt="historia" width="70%">
+        </section>
+        <!--memes seccion-->
+        <section id="memes" class="memes col-lg-6">
+          <h4 class="mt-2 display-6">Memes</h4>
+          <img class="rounded-4 mt-2" src="img/memes.jpeg" alt="historia" width="60%">
+          <img class="rounded-4 mt-2" src="img/meme3.jpg" alt="historia" width="60%">
+        </section>
+      </div>
+    </div>
     
     
     
+    <!--footer-->
+    <footer class="container mt-5 piePagina">
+      <div class="row">
+        <!--redes sociales-->
+        <div class="col-md-6 text-center">
+          <h3 class="mt-3">Redes Sociales</h3>
+          <ul class="socialMedia mt-3">
+            <li class="me-3">
+              <a href="">
+                <img class="socialMediaIcon " src="img/facebook.png" alt="facebook icon">
+              </a>
+            </li>
+            <li class="me-3"><a href=""><img class="socialMediaIcon" src="img/instagram.png" alt="instagram icon"></a></li>
+            <li class="me-3"><a href=""><img class="socialMediaIcon" src="img/twitter.png" alt="twiter icon"></a></li>
+            <li class="me-3"><a href=""><img class="socialMediaIcon" src="img/reddit.png" alt="reddit icon"></a></li>
+            <li class="me-3"><a href=""><img class="socialMediaIcon" src="img/github.png" alt="github icon"></a></li>
+          </ul>
+
+        </div>
+        <!-- creditos-->
+        <div class="col-md-6">
+          <h3 class="mt-3 text-center">Creditos</h3>
+          <ul class="credits mt-3">
+            <li><span>Moskito</span></li>
+            <li><a href="mailto:juan.miguez@bue.edu.ar">juan.miguez@bue.edu.ar</a></li>
+            <li><span>CFP Nro 10, Raul Scalabrini Ortiz</span></li>
+            <li><span>Copyleft : todos los derechos permitidos</span></li>
+          </ul>
+
+        </div>
+      </div>
+    </footer>
+
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-</div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
