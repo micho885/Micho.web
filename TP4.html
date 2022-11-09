@@ -48,25 +48,44 @@
         </nav>
         <header class="container-fluid">
           <div class="row">            
-            <div id="carouselExampleFade" class="carousel slide carousel-fade col-lg-8" data-bs-ride="carousel">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
               <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/león.png" class="d-block w-100 rounded-4 imagenescar" alt="dragon ball1">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/león.png" class="d-block w-100 rounded-4 imagenescar" alt="león"width="50%">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/tigre.png" class="d-block w-100 rounded-4 imagenescar" alt="tigre" width="50%" >
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/puma.png" class="d-block w-100 rounded-4 imagenescar" alt="dragon ball2">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/tigre.png" class="d-block w-100 rounded-4 imagenescar" alt="dragon ball3">
+                  <img src="img/guepardo.png" class="d-block w-100 rounded-4 imagenescar" alt="guepardo" width="50%">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
                 </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <div class="col-lg-4 text-center">
-              <h3 class="display-1">Bienvenidos a la pagina con información de<span class="tFelinos fw-bold">Felinos</span><span class="tSalvajes fw-bold">Salvajes</span> </h3>            
-            </div>
-          </div>
-        </header>
-    </div>
 
     <!--Features-->
     <section class="features container ">
@@ -104,8 +123,8 @@
         <!--cosplay seccion-->
         <section id="cosplay" class="cosplay col-lg-6 text-center"> 
           <h4 class="mt-2 display-6">Leopardos</h4>
-          <img class="rounded-4 mt-2" src="img/maestroroshi.png" alt="cosplay1" width="90%">
-          <p class="mt-2">Diferentes especies de leopardos habitan en los bosques y selvas del sur de Asia y sur de África. Comúnmente conocidos como panteras pardas, los leopardos comunes (Panthera pardus) presentan a veces un pelaje completamente negro, recibiendo en estos casos el nombre común de pantera negra. Los leopardos tienen hábitos de caza y actividad principalmente nocturnos, caracterizados por su sigilo y rapidez de ataque como principales estrategias de caza. Entre las especies de leopardos más asombrosas destacan:</p>          
+          <img class="rounded-4 mt-2" src="img/leopardodelasnieves.png" alt="cosplay1" width="90%">
+          <p class="mt-2">Entre las principales características del leopardo de las nieves, onza, irbis, snow leopard (en inglés) o científicamente llamado Uncia uncia o Panthera Uncia, destacamos que se trata de un gran felino difícil de ver, como su nombre popular de Fantasma de las nieves nos indica, y más aspectos importantes como los que comentamos en las siguientes líneas.</p>          
         </section>
         <!--historia seccion-->
         <section id="historia" class="historia col-lg-6">
