@@ -1,0 +1,15 @@
+.body{
+background-color: green; 
+}
+.socialMediaIcon{
+    height: 3rem;
+}
+.socialMedia{
+    list-style:none;
+}
+.socialMedia li{
+    display: inline-block;
+}
+.credits{
+    list-style:none;
+}
