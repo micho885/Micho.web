@@ -1,5 +1,8 @@
-.body{
+body{
 background-color: green; 
+}
+.imagenescar{
+    height: 800px;
 }
 .socialMediaIcon{
     height: 3rem;
@@ -13,3 +16,4 @@ background-color: green;
 .credits{
     list-style:none;
 }
+
